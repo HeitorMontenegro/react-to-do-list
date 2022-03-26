@@ -1,0 +1,36 @@
+.add-todo-container {
+    width: 300px;
+}
+
+.add-todo-input {
+    outline: none;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+}
+
+.add-todo-btn-container {
+    width: 100%;
+    display: flex;
+}
+
+.add-todo-btn {
+    width: 50%;
+    padding: 1rem;
+}
+.add-todo-add-btn {
+    outline: none;
+    border: none;
+    background-color: #85C88A;
+    cursor: pointer;
+}
+
+.add-todo-category-selector {
+    background-color: #E2D784;
+    outline: none;
+    border: none;
+}
+
+.add-todo-category-selector option{
+    background-color: #fff;
+}

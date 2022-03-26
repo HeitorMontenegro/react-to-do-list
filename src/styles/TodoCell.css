@@ -1,0 +1,60 @@
+.todo-cell-completed{
+    opacity: 50%;
+}
+
+.todo-item {
+    
+    width: 300px;
+    background-color: white;
+    transition: .5s ease all;
+}
+
+.todo-item:hover {
+    box-shadow: 5px 5px 3px 0px grey;
+}
+
+.todo-item-text {
+    width: 100%;
+    padding: 2rem 1.5rem;
+    min-height: 200px;
+}
+
+.todo-item-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.todo-item-btn {
+    width: 52px;
+    height: 52px;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.todo-item-btn:hover {
+    transform: scale(1.1);
+}
+
+.del-btn {
+    background-color: #F68989;
+}
+.del-btn:hover {
+    box-shadow: 0 0 5px #F68989;
+}
+.done-btn {
+    background-color: #85C88A;
+}
+.done-btn:hover {
+    box-shadow: 0 0 5px #85C88A;
+}
+
